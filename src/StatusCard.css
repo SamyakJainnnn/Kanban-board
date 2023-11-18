@@ -1,0 +1,80 @@
+.card {
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 8px 0px;
+    height: 5em;
+    background-color: white;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: auto;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.card-id {
+    color: gray;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+.status {
+    padding: 2px 8px;
+    border-radius: 12px;
+    color: white;
+    background-color: black;
+    /* Replace with dynamic coloring based on status */
+}
+
+.card-title {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.tags {
+    margin-top: 0.2rem;
+}
+
+.picon {
+    color: grey;
+    font-size: 0.6rem;
+    border: 1px solid grey;
+    border-radius: 2px;
+    padding: 3px;
+    margin-right: 3px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 1px 4px;
+    border: 1px solid;
+    border-color: grey;
+    background-color: white;
+    border-radius: 2px;
+    color: grey;
+    font-size: 0.6rem;
+    /* Replace with dynamic coloring based on tag */
+}
+
+.fa-circle {
+    font-size: 0.5rem;
+    margin-right: 2px;
+}
+
+.card-footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
